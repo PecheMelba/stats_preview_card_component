@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Stats preview card component</title>
+</head>
+<body>
+
+  <article>
+
+    <div id="image_container">
+      <picture>
+        <source media="(min-width: 900px)" srcset="images/image-header-desktop.jpg">
+        <source media="(min-width: 500px)" srcset="images/image-header-mobile.jpg">
+        
+        <img src="images/image-header-mobile.jpg" alt="coworking office">
+      </picture>
+    </div>
+
+    <section id="Text_block">
+
+      <h1 id="main_title">Get <em>insights</em> that help your business grow.</h1> 
+
+      <p id="main_paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p> 
+
+      <div id="stats_pannel">
+        <div id="stat">
+          <h1 id="stats_title">10k+</h1>
+          <p id="stats_details">companies</p>
+        </div>
+
+        <div id="stat2">
+          <h1 id="stats_title">314</h1>
+          <p id="stats_details">templates</p>
+        </div>
+
+        <div id="stat3">
+          <h1 id="stats_title">12M+</h1>
+          <p id="stats_details">queries</p>
+        </div>
+      </div>
+    </section>
+   
+  </article>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">PecheMelba</a>.
+  </p>
+</body>
+</html>
