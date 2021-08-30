@@ -49,20 +49,14 @@ article
 
 #image_container 
 {
-    background: rgb(176, 48, 255);
-    overflow: hidden;
+    background-image: linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%) ), url("images/image-header-desktop.jpg");
+    background-blend-mode: multiply;
+    
+    background-size: cover;
+    background-repeat:no-repeat;
 
     height: 100%;
     width: 50%;          
-}
-img
-{
-    opacity: 0.5;    
-    width: 100%;
-    height: 100%;
-
-    object-fit: fill;
-    object-position: left bottom;
 }
 
 #Text_block
@@ -195,16 +189,12 @@ p
 
     #image_container 
     {
+        background-image: linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%) ), url("images/image-header-mobile.jpg");
+
         height: 30vh;
         width: 100%;   
+    }
 
-        overflow: hidden;
-    }
-    img
-    {
-        object-fit: cover;
-        object-position: left bottom;
-    }
     #Text_block
     {
         width: 100%;        
